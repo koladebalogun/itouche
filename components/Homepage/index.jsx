@@ -45,7 +45,7 @@ const homeAnimation = (completeAnimation) => {
     });
 };
 
-const Index = ({ dimensions }) => {
+const Index = () => {
   const [animationComplete, setAnimationComplete] = useState(false);
 
   const completeAnimation = () => {
@@ -56,10 +56,7 @@ const Index = ({ dimensions }) => {
     homeAnimation(completeAnimation);
   }, []);
 
-  useEffect(() => {
-    let vh = dimensions.height * 0.01;
-    document.documentElement.style.setProperty("--vh", `${vh}px`);
-  }, []);
+ 
 
   return (
     <>
