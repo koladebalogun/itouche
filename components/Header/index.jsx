@@ -7,7 +7,7 @@ import Link from "next/link";
 import Navigation from "../Navigation";
 import Image from "next/image";
 
-const index = () => {
+const Index = () => {
   const [menuState, setMenuState] = useState({ menuOpened: false });
 
   return (
@@ -28,4 +28,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

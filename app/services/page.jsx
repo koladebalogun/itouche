@@ -4,7 +4,7 @@ import Intro from "../../components/Servicecomponents/Intro";
 import Description from "../../components/Servicecomponents/Description";
 import Services from "../../components/Servicecomponents/Services";
 
-const services = () => {
+const Service = () => {
   useEffect(() => {
     (async () => {
       const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -22,4 +22,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Service;

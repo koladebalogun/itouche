@@ -45,7 +45,7 @@ const homeAnimation = (completeAnimation) => {
     });
 };
 
-const index = ({ dimensions }) => {
+const Index = ({ dimensions }) => {
   const [animationComplete, setAnimationComplete] = useState(false);
 
   const completeAnimation = () => {
@@ -59,7 +59,7 @@ const index = ({ dimensions }) => {
   useEffect(() => {
     let vh = dimensions.height * 0.01;
     document.documentElement.style.setProperty("--vh", `${vh}px`);
-  }, [dimensions.width]);
+  }, []);
 
   return (
     <>
@@ -70,4 +70,4 @@ const index = ({ dimensions }) => {
   );
 };
 
-export default index;
+export default Index;

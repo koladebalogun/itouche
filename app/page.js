@@ -17,8 +17,8 @@ function debounce(fn, ms) {
   };
 }
 
-const page = () => {
-  const [dimensions, setDimensions] = React.useState({
+const Page = () => {
+  const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
     width: window.innerWidth,
   });
@@ -45,17 +45,9 @@ const page = () => {
       <Header dimensions={dimensions} />
       <Home dimensions={dimensions} />
 
-      {/* <Header dimensions={dimensions} />
-      <div className="App">
-        {routes.map(({ path, Component }) => (
-          <Route key={path} exact path={path}>
-            <Component dimensions={dimensions} />
-          </Route>
-        ))}
-      </div>
-      <Navigation /> */}
+      
     </>
   );
 };
 
-export default page;
+export default Page;
