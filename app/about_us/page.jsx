@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MobileView from './MobileView'
 
 const TemplateOne = ({ src, quote, description }) => {
   return (
@@ -97,6 +98,7 @@ const page = () => {
   }, []);
 
   return (
+    <>
     <div className={styles.wrapper}>
       <TemplateOne
         src={"s3.jpg"}
@@ -162,7 +164,9 @@ const page = () => {
           and well-cared-for asset.
         </p>
       </div>
-    </div>
+      </div>
+      <MobileView />
+    </>
   );
 };
 

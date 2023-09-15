@@ -26,17 +26,20 @@ function AnimatedText({ children }) {
 
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    gsap.from(text.current, {
-      scrollTrigger: {
-        trigger: text.current,
-        scrub: true,
-        start: "0px bottom",
-        end: "bottom+=400px bottom",
-      },
-      opacity: 0,
-      left: "-200px",
-      ease: "power3.Out",
-    });
+
+    if (window.innerWidth > 1000) {
+      gsap.from(text.current, {
+        scrollTrigger: {
+          trigger: text.current,
+          scrub: true,
+          start: "0px bottom",
+          end: "bottom+=400px bottom",
+        },
+        opacity: 0,
+        left: "-200px",
+        ease: "power3.Out",
+      });
+    }
   }, []);
 
   return <p ref={text}>{children}</p>;
