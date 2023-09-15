@@ -1,4 +1,4 @@
-import {useLayoutEffect, useRef} from "react";
+import {useEffect, useRef} from "react";
 // import { ReactComponent as RightArrow } from "../assets/arrow-right.svg";
 import styles from './style.module.css'
 import gsap from "gsap";
@@ -8,7 +8,7 @@ let tl = gsap.timeline();
 const Banner = () => {
   const textRef = useRef()
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     tl.from(textRef.current, 1.8, {
       opacity: 0,
       y: 100,
