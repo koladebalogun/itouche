@@ -7,7 +7,7 @@ import Link from "next/link";
 import Navigation from "../Navigation";
 import Image from "next/image";
 
-const Index = () => {
+const Index = ({ src, text }) => {
   const [menuState, setMenuState] = useState({ menuOpened: false });
 
   return (
@@ -15,8 +15,17 @@ const Index = () => {
       <div className={styles.container}>
         <div>
           <div className={styles.logo}>
-          <Image src={"/images/logo.png"} width={150} height={100} alt="logo" />
-            <Link href="/">SOGA PROPERTY SOLUTIONS</Link>
+            {src && (
+              <Link href="/">
+                <Image
+                  src={`/images/${src}`}
+                  width={100}
+                  height={77}
+                  alt="logo"
+                />
+              </Link>
+            )}
+            <Link href="/">{text}</Link>
           </div>
 
           <div className={styles.nav_toggle}>

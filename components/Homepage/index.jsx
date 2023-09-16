@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Banner from "./banner/banner";
 import Cases from "./cases/cases";
-import IntroOverlay from "./Overlay"
+import Navigation from '../Navigation'
 import gsap from "gsap";
 
 let tl = gsap.timeline();
@@ -59,11 +59,11 @@ const Index = () => {
  
 
   return (
-    <>
-      {animationComplete === false ? <IntroOverlay /> : ""}
+    <div>
+      {/* {animationComplete === false ? <IntroOverlay /> : ""} */}
       <Banner />
       <Cases />
-    </>
+    </div>
   );
 };
 

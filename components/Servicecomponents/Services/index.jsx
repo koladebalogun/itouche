@@ -8,7 +8,7 @@ const List = [
   {
     title: "Guaranteed Rental Income",
     content:
-      "With our property management services, you can say goodbye to the uncertainty of vacant properties. We offer you a fixed, guaranteed income stream, providing you with peace of mind.",
+      "With our property management services, you can say goodbye to the uncertainty of vacant properties. We offer landlords a fixed, guaranteed income stream, providing you with peace of mind.",
   },
   {
     title: "Full Property Management",
@@ -18,7 +18,7 @@ const List = [
   {
     title: "Tailored Solutions",
     content:
-      "We understand that every property is unique. Our customized solutions are designed to meet your specific needs and goals",
+      "We understand that every property is unique. Our customised solutions are designed to meet your specific needs and goals.",
   },
   {
     title: "Increased Profitability",
@@ -36,17 +36,17 @@ export default function index() {
   return (
     <>
       <div style={{ color: "white" }} className={styles.wrapper}>
-        {List.map((items, index) => (
-          <AnimatedText key={index}>
-            <div>
-              <p>{items.title}</p>
-              <p>{items.content}</p>
-              <hr className={styles.line} />
-            </div>
-          </AnimatedText>
-        ))}
-
-      </div>
+        <>
+          {List.map((items, index) => (
+            <AnimatedText key={index}>
+              <div>
+                <p>{items.title}</p>
+                <p>{items.content}</p>
+                <hr className={styles.line} />
+              </div>
+            </AnimatedText>
+          ))}
+        </>
         <h4 className={styles.subtext}>
           At Soga Property Solutions, we are proud to offer our property
           management services with complete transparency and integrity. We want
@@ -55,6 +55,7 @@ export default function index() {
           reliable, and hassle-free property management, without hidden fees or
           surprises.
         </h4>
+      </div>
     </>
   );
 }

@@ -5,6 +5,7 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import MobileView from './MobileView'
+import Header from '../../components/Header'
 
 const TemplateOne = ({ src, quote, description }) => {
   return (
@@ -99,71 +100,72 @@ const page = () => {
 
   return (
     <>
-    <div className={styles.wrapper}>
-      <TemplateOne
-        src={"s3.jpg"}
-        quote={"About Us"}
-        description={
-          "At Soga Property Solutions, we're committed to providing property owners with an exceptional and stress-free property management experience, driven by our core values of Integrity, Respect, Reliable service, and Kindness."
-        }
-      />
+      <Header src={"logo.png"} text={"Soga property solutions"} />
+      <div className={styles.wrapper}>
+        <TemplateOne
+          src={"s3.jpg"}
+          quote={"About Us"}
+          description={
+            "At Soga Property Solutions, we're committed to providing property owners with an exceptional and stress-free property management experience, driven by our core values of Integrity, Respect, Reliable service, and Kindness."
+          }
+        />
 
-      <div className={styles.subheader}>
-        <h2>Why Choose Soga Property Solutions:</h2>
-      </div>
+        <div className={styles.subheader}>
+          <h2>Why Choose Soga Property Solutions:</h2>
+        </div>
 
-      <TemplateTwo
-        
-        src={"banner.webp"}
-        quote={"INTEGRITY"}
-        description={
-          "Our foundation is built on unwavering integrity. We believe in transparent and ethical business practices, ensuring that your property is managed with the utmost honesty and professionalism."
-        }
-      />
+        <TemplateTwo
+          src={"banner.webp"}
+          quote={"INTEGRITY"}
+          description={
+            "Our foundation is built on unwavering integrity. We believe in transparent and ethical business practices, ensuring that your property is managed with the utmost honesty and professionalism."
+          }
+        />
 
-      <TemplateOne
-        src={"s1.jpg"}
-        quote={"RESPECT"}
-        description={
-          "We respect your property as if it were our own. Our dedicated team treats both property owners and tenants with the respect they deserve, fostering positive and lasting relationships."
-        }
-      />
+        <TemplateOne
+          src={"s1.jpg"}
+          quote={"RESPECT"}
+          description={
+            "We respect your property as if it were our own. Our dedicated team treats both property owners and tenants with the respect they deserve, fostering positive and lasting relationships."
+          }
+        />
 
-      <TemplateTwo
-        src={"s2.jpg"}
-        quote={"RELIABLE SERVICE"}
-        description={
-          "You can rely on us to manage every aspect of your property effectively, we offer dependable solutions that give you peace of mind."
-        }
-      />
+        <TemplateTwo
+          src={"s2.jpg"}
+          quote={"RELIABLE SERVICE"}
+          description={
+            "You can rely on us to manage every aspect of your property effectively, we offer dependable solutions that give you peace of mind."
+          }
+        />
 
-      <TemplateOne
-        src={"s5.jpg"}
-        quote={"KINDNESS"}
-        description={
-          "We understand that property management is not just about bricks and mortar, it's about people. Our friendly and compassionate approach ensures that everyone involved in the process feels valued and appreciated."
-        }
-      />
+        <TemplateOne
+          src={"s5.jpg"}
+          quote={"KINDNESS"}
+          description={
+            "We understand that property management is not just about bricks and mortar, it's about people. Our friendly and compassionate approach ensures that everyone involved in the process feels valued and appreciated."
+          }
+        />
 
-      <div className={styles.sub_content}>
-        <p>
-          At Soga Property Solutions, we believe that our commitment to these
-          values sets us apart in the industry. When you choose us as your
-          property management partner, you're choosing a team that is dedicated
-          to upholding these principles in every interaction and decision.
-          <br />
-          <br />
-          We invite you to explore our services and discover how we can help you
-          maximize your rental income while enjoying a stress-free property
-          ownership experience.
-          <br />
-          <br />
-          Contact us today to discuss how Soga Property Solutions can tailor our
-          services to meet your unique property management needs. We look
-          forward to working with you to ensure your property remains a valuable
-          and well-cared-for asset.
-        </p>
-      </div>
+        <div className={styles.sub_content}>
+          <p>
+            At Soga Property Solutions, we believe that our commitment to these
+            values sets us apart in the industry. When you choose us as your
+            property management partner, you're choosing a team that is
+            dedicated to upholding these principles in every interaction and
+            decision.
+            <br />
+            <br />
+            We invite you to explore our services and discover how we can help
+            you maximize your rental income while enjoying a stress-free
+            property ownership experience.
+            <br />
+            <br />
+            Contact us today to discuss how Soga Property Solutions can tailor
+            our services to meet your unique property management needs. We look
+            forward to working with you to ensure your property remains a
+            valuable and well-cared-for asset.
+          </p>
+        </div>
       </div>
       <MobileView />
     </>

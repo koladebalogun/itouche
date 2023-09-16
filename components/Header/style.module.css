@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 78px;
   top: 0;
   z-index: 4;
   background: #000;
@@ -17,18 +17,9 @@
   letter-spacing: 0.2rem;
   text-decoration: none;
   font-weight: 700;
-  margin-top: 20px;
-  background-image: linear-gradient(
-    to right,
-    #462523 0,
-    #cb9b51 22%,
-    #f6e27a 45%,
-    #f6f2c0 50%,
-    #f6e27a 55%,
-    #cb9b51 78%,
-    #462523 100%
-  );
-  color: transparent;
+  /* margin-top: 20px; */
+  
+  color: #cb9b51;
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -81,7 +72,7 @@
     z-index: 30;
   }
 
-  .logo a{
+  .logo a:nth-child(2){
     display: none;
   }
 }
@@ -93,7 +84,7 @@
     z-index: 30;
   }
 
-  .logo a{
+  .logo a:nth-child(2){
     display: none;
   }
 }

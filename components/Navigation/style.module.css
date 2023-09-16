@@ -7,16 +7,10 @@
 }
 
 .button {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  background-image: linear-gradient(
-    to right,
-    #462523 0,
-    #cb9b51 22%,
-    /* #f6e27a 45%, */ /* #f6f2c0 50%, */ /* #f6e27a 55%, */ /* #cb9b51 78%, */
-      #462523 100%
-  );
+  background-color: #cb9b51;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -80,7 +74,8 @@
 
 @media only screen and (max-width: 425px) {
   .header {
-    top: 0;
+    top: -1%;
+    right: -3%;
   }
 
   .button {

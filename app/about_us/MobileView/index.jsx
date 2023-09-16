@@ -22,7 +22,7 @@ const Index = () => {
           <div className={style.mobile_hero_inner}>
             <img src="images/s3.jpg" />
             <div
-              className={style.mobile_hero_header}
+              className={style.mobile_hero_header1}
               data-scroll
               data-scroll-speed="0.2"
             >
@@ -47,7 +47,7 @@ const Index = () => {
       <div>
         <div className={style.mobile_hero}>
           <div className={style.mobile_hero_inner}>
-            <img src="images/banner.webp" />
+            {/* <img src="images/banner.webp" /> */}
             <div
               className={style.mobile_hero_header}
               data-scroll
@@ -73,7 +73,7 @@ const Index = () => {
       <div>
         <div className={style.mobile_hero}>
           <div className={style.mobile_hero_inner}>
-            <img src="images/s1.jpg" />
+            {/* <img src="images/s1.jpg" /> */}
             <div
               className={style.mobile_hero_header}
               data-scroll
@@ -99,7 +99,7 @@ const Index = () => {
       <div>
         <div className={style.mobile_hero}>
           <div className={style.mobile_hero_inner}>
-            <img src="images/s2.jpg" />
+            {/* <img src="images/s2.jpg" /> */}
             <div
               className={style.mobile_hero_header}
               data-scroll
@@ -125,7 +125,7 @@ const Index = () => {
       <div>images
         <div className={style.mobile_hero}>
           <div className={style.mobile_hero_inner}>
-            <img src="images/s5.jpg" />
+            {/* <img src="images/s5.jpg" /> */}
             <div
               className={style.mobile_hero_header}
               data-scroll

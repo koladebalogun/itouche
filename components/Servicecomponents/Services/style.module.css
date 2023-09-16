@@ -1,8 +1,11 @@
 .wrapper {
-  margin-top: 10vw;
+  margin-top: 150px;
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 10vw;
+  /* z-index: 50; */
+  position: relative;
+  top: 380px;
 }
 
 .line {
@@ -15,7 +18,7 @@
   width: 100%;
   gap: 30px;
   font-size: 50px;
-  color: goldenrod;
+  color: #cb9b51;
 }
 
 .description p:nth-child(2) {
@@ -23,11 +26,16 @@
 }
 
 .subtext {
-  color: goldenrod;
+  color: #cb9b51;
   text-align: center;
+  margin: 50px 0;
 }
 
 @media only screen and (max-width: 425px) {
+  .wrapper {
+    margin-top: 20px;
+  }
+
   .description p:nth-child(1) {
     font-size: 24px;
   }

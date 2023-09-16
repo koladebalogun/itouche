@@ -1,32 +1,33 @@
 .main {
   height: 50vh;
   height: calc(var(--vh, 1vh) * 50);
-  background-color: #000;
+  position: relative;
 }
 
 .container {
   width: 100%;
-  /* min-width: 1560px; */
   margin: 0 auto;
-  height: 100%;
+  height: 450px;
 }
 
 .container .row {
   display: flex;
+  justify-content: center;
   height: 100%;
-  padding: 0 32px;
+  /* padding: 0 32px; */
 }
 
 .row {
-  flex-direction: column;
-  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.row h2 {
-  font-size: 3rem;
-  line-height: 3.6rem;
-  font-weight: 700;
-  z-index: 10;
+.row img {
+  width: 50%;
+  height: 530px;
+  position: absolute;
+  top: -10%;
 }
 
 .gold_text {
@@ -79,9 +80,7 @@
 }
 
 @media only screen and (max-width: 425px) {
-  .row h2 {
-    /* margin-top: 72px;
-    font-size: 10rem;
-    line-height: 0; */
+  .row img{
+    width: 100%;
   }
 }
