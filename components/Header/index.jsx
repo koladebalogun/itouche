@@ -1,14 +1,10 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import styles from "./style.module.css";
-import { useRouter } from "next/router";
-import { openMenu, closeMenu } from "@/animations/menuAnimations";
 import Link from "next/link";
 import Navigation from "../Navigation";
 import Image from "next/image";
 
 const Index = ({ src, text }) => {
-  const [menuState, setMenuState] = useState({ menuOpened: false });
 
   return (
     <div className={styles.header}>

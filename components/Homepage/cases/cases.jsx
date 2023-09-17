@@ -6,18 +6,18 @@ const caseStudies = [
   {
     id: 1,
     title: "Welcome to The Hassle-Free Property Management.",
-    img: "img1.webp",
+    img: "hp1.jpg",
   },
   {
     id: 2,
     title:
       "We specialise in providing property owners like you with a seamless solution",
-    img: "img2.webp",
+    img: "hp2.jpg",
   },
   {
     id: 3,
     title: "We also ensure you receive consistent, guaranteed and rental income.",
-    img: "s3.jpg",
+    img: "hp3.jpg",
   },
 ];
 
@@ -33,10 +33,6 @@ const Cases = () => {
               </div>
               <div className="case-image">
                 <Image src={`/images/${caseItem.img}`} fill={true} />
-                {/* <img
-                  src={require(`../assets/${caseItem.img}.png`)}
-                  alt={caseItem.title}
-                /> */}
               </div>
             </div>
           ))}

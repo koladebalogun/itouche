@@ -4,7 +4,6 @@
 }
 
 .testimonial_section {
-  /* height: 10vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +16,6 @@
 .testimonial_container {
   width: 100%;
   min-width: 1280px;
-  /* height: 600px; */
   position: relative;
 }
 
@@ -25,7 +23,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 600px; */
 }
 
 .t_image {
@@ -76,16 +73,13 @@
   overflow: hidden;
   height: 460px;
   width: 340px;
-  /* box-shadow: 0px 0px 40px rgba(0, 0, 10, 0.25); */
 }
 
 .t_image2 ul {
   display: flex;
-  /* position: absolute; */
   overflow: hidden;
   height: 460px;
   width: 340px;
-  /* box-shadow: 0px 0px 40px rgba(0, 0, 10, 0.25); */
 }
 
 .t_image li {
@@ -100,7 +94,7 @@
 
 .t_image img {
   height: 400px;
-  width: 500px;
+  width: 400px;
 }
 
 .t_image2 img {
@@ -143,15 +137,14 @@
   margin-bottom: 16px;
   text-decoration: underline;
   text-decoration-color: goldenrod;
-  /* display: none; */
 }
+
 .name {
   font-size: 18px;
   letter-spacing: 0.88px;
   line-height: 28px;
   color: #fff;
   font-weight: 600;
-  /* display: none; */
 }
 
 .subheader {
@@ -209,7 +202,6 @@
     display: block;
     height: 100%;
     margin-bottom: 30px;
-    /* background-color: #fff; */
   }
 
   .mobileWrapper h3 {
@@ -233,7 +225,6 @@
   }
 
   .mobile_hero_header1 {
-    /* position: absolute; */
     color: #fff;
     position: absolute;
     top: 50%;
@@ -248,11 +239,8 @@
   }
 
   .mobile_hero_header {
-    /* position: absolute; */
     color: #fff;
     top: 15%;
-    /* left: 11%; */
-    /* padding: 10px; */
     font-size: 30px;
     text-decoration: underline;
     text-decoration-color: #fbb03b;

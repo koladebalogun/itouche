@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import Intro from "../../components/Servicecomponents/Intro";
-import Description from "../../components/Servicecomponents/Description";
 import Services from "../../components/Servicecomponents/Services";
 import Header from "../../components/Header";
 
@@ -16,10 +15,8 @@ const Service = () => {
   return (
     <>
       <Header src={"logo.png"} text={"Soga property solutions"} />
-      <main style={{ color: "white" }}>
-        hello
+      <main>
         <Intro />
-        {/* <Description /> */}
         <Services />
       </main>
     </>

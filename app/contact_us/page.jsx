@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import style from "./style.module.css";
 import emailjs from "@emailjs/browser";
-import Header from '../../components/Header'
+import Header from "../../components/Header";
 
 const contact = () => {
   const form = useRef();
@@ -30,20 +30,19 @@ const contact = () => {
 
   return (
     <>
-      <Header src={'logo.png'} text={'Soga property solutions'} />
+      <Header src={"logo.png"} text={"Soga property solutions"} />
       <div className={style.contact_wrapper}>
         <h1 className={style.header}>Contact Us</h1>
         <div className={style.contact_inner_wrapper}>
           <div className={style.left_card}>
             <p>
-              We offer a <span>free</span> no obligation consultation call. This
-              consultaion will showcase our market insight, knowledge,
-              experience and most importantly, how we can help you.
+              If you are a property owner interested in guaranteed rent and
+              stress free property management, please get in touch.
             </p>
 
             <div className={style.contact_info}>
               <p>Call us on: +44 (0)786 909 8557</p>
-              <p>Email: sogapropertysolutions@gmail.com</p>
+              <p>Email: sogapropertysolutionsltd@gmail.com</p>
             </div>
           </div>
 

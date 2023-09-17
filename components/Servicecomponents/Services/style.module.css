@@ -3,7 +3,6 @@
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 10vw;
-  /* z-index: 50; */
   position: relative;
   top: 380px;
 }
@@ -42,6 +41,5 @@
 
   .subtext {
     padding: 30px;
-    /* text-align: justify; */
   }
 }

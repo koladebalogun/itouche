@@ -4,19 +4,15 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import MobileView from './MobileView'
-import Header from '../../components/Header'
+import MobileView from "./MobileView";
+import Header from "../../components/Header";
 
 const TemplateOne = ({ src, quote, description }) => {
   return (
     <div className={styles.testimonial_section}>
       <div className={styles.testimonial_container}>
         <div className={styles.inner}>
-          <div
-            className={styles.t_image}
-            data-aos="fade-up-left"
-            
-          >
+          <div className={styles.t_image} data-aos="fade-up-left">
             <ul>
               <li>
                 <img src={`images/${src}`} />
@@ -86,7 +82,6 @@ const TemplateTwo = ({ src, quote, description }) => {
 };
 
 const page = () => {
-
   useEffect(() => {
     AOS.init();
   }, []);
@@ -103,7 +98,7 @@ const page = () => {
       <Header src={"logo.png"} text={"Soga property solutions"} />
       <div className={styles.wrapper}>
         <TemplateOne
-          src={"s3.jpg"}
+          src={"ab1.jpg"}
           quote={"About Us"}
           description={
             "At Soga Property Solutions, we're committed to providing property owners with an exceptional and stress-free property management experience, driven by our core values of Integrity, Respect, Reliable service, and Kindness."
@@ -115,7 +110,7 @@ const page = () => {
         </div>
 
         <TemplateTwo
-          src={"banner.webp"}
+          src={"ab2.jpg"}
           quote={"INTEGRITY"}
           description={
             "Our foundation is built on unwavering integrity. We believe in transparent and ethical business practices, ensuring that your property is managed with the utmost honesty and professionalism."
@@ -123,7 +118,7 @@ const page = () => {
         />
 
         <TemplateOne
-          src={"s1.jpg"}
+          src={"ab3.jpg"}
           quote={"RESPECT"}
           description={
             "We respect your property as if it were our own. Our dedicated team treats both property owners and tenants with the respect they deserve, fostering positive and lasting relationships."
@@ -131,7 +126,7 @@ const page = () => {
         />
 
         <TemplateTwo
-          src={"s2.jpg"}
+          src={"img1.webp"}
           quote={"RELIABLE SERVICE"}
           description={
             "You can rely on us to manage every aspect of your property effectively, we offer dependable solutions that give you peace of mind."
