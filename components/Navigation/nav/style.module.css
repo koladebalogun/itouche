@@ -46,6 +46,7 @@
 }
 
 @media only screen and (max-width: 425px) {
+
   .menu {
     left: 0;
   }
@@ -54,5 +55,9 @@
     /* padding: 10px; */
     /* padding:0px; */
     padding-left: 20px;
+  }
+
+  .nav{
+    font-size: 45px;
   }
 }

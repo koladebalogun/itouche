@@ -30,7 +30,7 @@ export default function Index() {
     <div className={styles.homeHeader}>
       <div className={styles.backgroundImage} ref={background}>
         <Image
-          src={"/images/service.webp"}
+          src={"/images/svc.jpeg"}
           fill={true}
           alt="background image"
           priority={true}
@@ -44,7 +44,7 @@ export default function Index() {
           className={styles.introImage}
         >
           <Image
-            src={"/images/service.webp"}
+            src={"/images/svc.jpeg"}
             alt="intro image"
             fill={true}
             priority={true}

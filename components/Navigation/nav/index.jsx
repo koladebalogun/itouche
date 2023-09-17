@@ -17,12 +17,12 @@ const navItems = [
     href: "/services",
   },
   {
-    title: "About",
+    title: "About Us",
     href: "/about_us",
   },
   {
-    title: "Contact",
-    href: "/contact",
+    title: "Contact Us",
+    href: "/contact_us",
   },
 ];
 

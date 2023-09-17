@@ -1,9 +1,9 @@
 "use client";
-
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { AnimatePresence } from "framer-motion";
 import Banner from "./banner/banner";
 import Cases from "./cases/cases";
-import Navigation from '../Navigation'
+import Preloader from "../preloader";
 import gsap from "gsap";
 
 let tl = gsap.timeline();
@@ -46,6 +46,7 @@ const homeAnimation = (completeAnimation) => {
 };
 
 const Index = () => {
+  const [isLoading, setIsLoading] = useState(true);
   const [animationComplete, setAnimationComplete] = useState(false);
 
   const completeAnimation = () => {
@@ -53,14 +54,27 @@ const Index = () => {
   };
 
   useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const locomotiveScroll = new LocomotiveScroll();
+
+      setTimeout(() => {
+        setIsLoading(false);
+        document.body.style.cursor = "default";
+        window.scrollTo(0, 0);
+      }, 2000);
+    })();
+  }, []);
+
+  useEffect(() => {
     homeAnimation(completeAnimation);
   }, []);
 
- 
-
   return (
     <div>
-      {/* {animationComplete === false ? <IntroOverlay /> : ""} */}
+      <AnimatePresence mode="wait">
+        {isLoading && <Preloader />}
+      </AnimatePresence>
       <Banner />
       <Cases />
     </div>
