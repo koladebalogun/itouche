@@ -11,7 +11,7 @@ const caseStudies = [
   {
     id: 2,
     title:
-      "We specialise in providing property owners like you with a seamless solution",
+      "We specialise in providing property owners like you with a seamless solution.",
     img: "hp2.jpg",
   },
   {
