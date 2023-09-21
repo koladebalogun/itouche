@@ -16,29 +16,32 @@ const caseStudies = [
   },
   {
     id: 3,
-    title: "We also ensure you receive consistent, guaranteed and rental income.",
+    title:
+      "We also ensure you receive consistent and guaranteed rental income.",
     img: "hp3.jpg",
   },
 ];
 
 const Cases = () => {
   return (
-    <section className={styles.cases}>
-      <div className={styles.container_fluid}>
-        <div className={styles.row}>
-          {caseStudies.map((caseItem) => (
-            <div className={styles.case} key={caseItem.id}>
-              <div className={styles.case_details}>
-                <h2>{caseItem.title}</h2>
+    <>
+      <section className={styles.cases}>
+        <div className={styles.container_fluid}>
+          <div className={styles.row}>
+            {caseStudies.map((caseItem) => (
+              <div className={styles.case} key={caseItem.id}>
+                <div className={styles.case_details}>
+                  <h2>{caseItem.title}</h2>
+                </div>
+                <div className="case-image">
+                  <Image src={`/images/${caseItem.img}`} fill={true} />
+                </div>
               </div>
-              <div className="case-image">
-                <Image src={`/images/${caseItem.img}`} fill={true} />
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

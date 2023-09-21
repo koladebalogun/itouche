@@ -1,11 +1,14 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import style from "./style.module.css";
 import emailjs from "@emailjs/browser";
 import Header from "../../components/Header";
+  import { ToastContainer, toast } from "react-toastify";
+  import "react-toastify/dist/ReactToastify.css";
 
 const contact = () => {
   const form = useRef();
+  const [messageSent, setMessageSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,12 +24,19 @@ const contact = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          setMessageSent(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
+
+  if (messageSent) {
+    toast.success("Message Sent!", {
+      theme: "colored",
+    });
+  }
 
   return (
     <>
@@ -60,6 +70,7 @@ const contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer  />
     </>
   );
 };

@@ -85,7 +85,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 450px) {
   .header {
     height: 99px;
     background-color: #000;
