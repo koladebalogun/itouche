@@ -4,8 +4,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Soga",
-  description: "Soga property solutions",
+  title: "itouche",
+  description: "itouche collectibles",
 };
 
 export default function RootLayout({ children }) {

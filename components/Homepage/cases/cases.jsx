@@ -5,19 +5,14 @@ import Image from "next/image";
 const caseStudies = [
   {
     id: 1,
-    title: "Welcome to The Hassle-Free Property Management.",
     img: "hp1.jpg",
   },
   {
     id: 2,
-    title:
-      "We specialise in providing property owners like you with a seamless solution.",
     img: "hp2.jpg",
   },
   {
     id: 3,
-    title:
-      "We also ensure you receive consistent and guaranteed rental income.",
     img: "hp3.jpg",
   },
 ];

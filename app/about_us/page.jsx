@@ -101,66 +101,56 @@ const page = () => {
           src={"ab1.jpg"}
           quote={"About Us"}
           description={
-            "At Soga Property Solutions, we're committed to providing property owners with an exceptional and stress-free property management experience, driven by our core values of Integrity, Respect, Reliable service, and Kindness."
+            "Welcome to Itouché n Co., where African fashion meets class. At Itouché n Co., we believe in the power of African heritage, vibrant culture, and contemporary design to create stunning fashion statements that resonate with elegance and sophistication. Our mission is to celebrate African roots while offering a modern twist, ensuring you stand out with style and grace."
           }
         />
 
-        <div className={styles.subheader}>
+        {/* <div className={styles.subheader}>
           <h2>Why Choose Soga Property Solutions:</h2>
-        </div>
+        </div> */}
 
         <TemplateTwo
           src={"ab2.jpg"}
-          quote={"INTEGRITY"}
+          quote={"Our Vision:"}
           description={
-            "Our foundation is built on unwavering integrity. We believe in transparent and ethical business practices, ensuring that your property is managed with the utmost honesty and professionalism."
+            "To be the epitome of African contemporary fashion, blending tradition and innovation seamlessly. We strive to be the go-to brand for those who appreciate the richness of African culture and the allure of high-class fashion."
           }
         />
 
         <TemplateOne
           src={"ab3.jpg"}
-          quote={"RESPECT"}
+          quote={"Our Philosophy:"}
           description={
-            "We respect your property as if it were our own. Our dedicated team treats both property owners and tenants with the respect they deserve, fostering positive and lasting relationships."
+            "'Be African Oriented!' is not just a slogan; it's a way of life. We are passionate about creating clothing that not only honors African traditions but also speaks to the global citizen. Our collections are designed to make you feel confident, empowered, and connected to your heritage without the hassle. We won’t stress your ‘BRAIN’ – our designs are intuitive, stylish, and easy to wear, perfect for any occasion."
           }
         />
 
         <TemplateTwo
-          src={"img1.webp"}
-          quote={"RELIABLE SERVICE"}
+          src={"ab4.jpg"}
+          quote={"Our Collections:"}
           description={
-            "You can rely on us to manage every aspect of your property effectively, we offer dependable solutions that give you peace of mind."
+            "Each piece from Itouché n Co. is a masterpiece, carefully crafted with attention to detail and an unwavering commitment to quality. From vibrant prints and bold patterns to elegant silhouettes and luxurious fabrics, our collections are a testament to the beauty of African artistry. Whether you're looking for everyday wear or a statement piece for a special event, Itouché n Co. has something for every fashion-forward individual."
           }
         />
 
-        <TemplateOne
-          src={"s5.jpg"}
-          quote={"KINDNESS"}
-          description={
-            "We understand that property management is not just about bricks and mortar, it's about people. Our friendly and compassionate approach ensures that everyone involved in the process feels valued and appreciated."
-          }
-        />
-
-        <div className={styles.sub_content}>
+        {/* <div className={styles.sub_content}>
           <p>
-            At Soga Property Solutions, we believe that our commitment to these
-            values sets us apart in the industry. When you choose us as your
-            property management partner, you're choosing a team that is
-            dedicated to upholding these principles in every interaction and
-            decision.
+            We are dedicated to providing our customers with an exceptional
+            shopping experience. From the moment you explore our collections to
+            the time you wear our designs, we ensure that you feel valued,
+            satisfied, and proud of your choice. Our team is always here to
+            assist you, ensuring that your journey with Itouché n Co. is nothing
+            short of extraordinary.
             <br />
             <br />
-            We invite you to explore our services and discover how we can help
-            you maximize your rental income while enjoying a stress-free
-            property ownership experience.
+            Join us in celebrating the fusion of tradition and contemporary
+            fashion. Embrace the elegance, embrace the culture, and be African
+            Oriented with Itouché n Co.
             <br />
             <br />
-            Contact us today to discuss how Soga Property Solutions can tailor
-            our services to meet your unique property management needs. We look
-            forward to working with you to ensure your property remains a
-            valuable and well-cared-for asset.
+            Welcome to the family. Welcome to Itouché n Co.
           </p>
-        </div>
+        </div> */}
       </div>
       <MobileView />
     </>

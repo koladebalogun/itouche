@@ -12,18 +12,18 @@ const navItems = [
     title: "Home",
     href: "/",
   },
-  {
-    title: "Services",
-    href: "/services",
-  },
+  // {
+  //   title: "Services",
+  //   href: "/services",
+  // },
   {
     title: "About Us",
     href: "/about_us",
   },
-  {
-    title: "Contact Us",
-    href: "/contact_us",
-  },
+  // {
+  //   title: "Contact Us",
+  //   href: "/contact_us",
+  // },
 ];
 
 export default function Index() {

@@ -11,7 +11,7 @@ const Banner = () => {
     <section className={styles.main}>
       <div className={styles.container}>
         <div className={styles.row}>
-          <img src={'/images/logo.png'} />
+          <h1>ITOUCHE COLLECTIBLES</h1>
         </div>
       </div>
     </section>

@@ -20,7 +20,7 @@ const Index = () => {
       <div>
         <div className={style.mobile_hero}>
           <div className={style.mobile_hero_inner}>
-            <img src="images/s3.jpg" />
+            <img src="images/ab4.jpg" />
             <div
               className={style.mobile_hero_header1}
               data-scroll
@@ -35,10 +35,12 @@ const Index = () => {
           <div className={style.mobile_service_content_inner}>
             <h3 data-scroll></h3>
             <p>
-              At Soga Property Solutions, we're committed to providing property
-              owners with an exceptional and stress-free property management
-              experience, driven by our core values of Integrity, Respect,
-              Reliable service, and Kindness.
+              Welcome to Itouché n Co., where African fashion meets class. At
+              Itouché n Co., we believe in the power of African heritage,
+              vibrant culture, and contemporary design to create stunning
+              fashion statements that resonate with elegance and sophistication.
+              Our mission is to celebrate African roots while offering a modern
+              twist, ensuring you stand out with style and grace.
             </p>
           </div>
         </div>
@@ -52,7 +54,7 @@ const Index = () => {
               data-scroll
               data-scroll-speed="0.1"
             >
-              INTEGRITY
+              Our Vision:
             </div>
           </div>
         </div>
@@ -61,9 +63,10 @@ const Index = () => {
           <div className={style.mobile_service_content_inner}>
             <h3 data-scroll data-scroll-speed></h3>
             <p>
-              Our foundation is built on unwavering integrity. We believe in
-              transparent and ethical business practices, ensuring that your
-              property is managed with the utmost honesty and professionalism.
+              To be the epitome of African contemporary fashion, blending
+              tradition and innovation seamlessly. We strive to be the go-to
+              brand for those who appreciate the richness of African culture and
+              the allure of high-class fashion.
             </p>
           </div>
         </div>
@@ -77,7 +80,7 @@ const Index = () => {
               data-scroll
               data-scroll-speed="0.1"
             >
-              RESPECT
+              Our Philosophy:
             </div>
           </div>
         </div>
@@ -86,9 +89,13 @@ const Index = () => {
           <div className={style.mobile_service_content_inner}>
             <h3 data-scroll data-scroll-speed></h3>
             <p>
-              We respect your property as if it were our own. Our dedicated team
-              treats both property owners and tenants with the respect they
-              deserve, fostering positive and lasting relationships.
+              "Be African Oriented!" is not just a slogan; it's a way of life.
+              We are passionate about creating clothing that not only honors
+              African traditions but also speaks to the global citizen. Our
+              collections are designed to make you feel confident, empowered,
+              and connected to your heritage without the hassle. We won’t stress
+              your ‘BRAIN’ – our designs are intuitive, stylish, and easy to
+              wear, perfect for any occasion.
             </p>
           </div>
         </div>
@@ -102,7 +109,7 @@ const Index = () => {
               data-scroll
               data-scroll-speed="0.1"
             >
-              RELIABLE SERVICE
+              Our Collections:
             </div>
           </div>
         </div>
@@ -111,15 +118,19 @@ const Index = () => {
           <div className={style.mobile_service_content_inner}>
             <h3 data-scroll data-scroll-speed></h3>
             <p>
-              You can rely on us to manage every aspect of your property
-              effectively, we offer dependable solutions that give you peace of
-              mind.
+              Each piece from Itouché n Co. is a masterpiece, carefully crafted
+              with attention to detail and an unwavering commitment to quality.
+              From vibrant prints and bold patterns to elegant silhouettes and
+              luxurious fabrics, our collections are a testament to the beauty
+              of African artistry. Whether you're looking for everyday wear or a
+              statement piece for a special event, Itouché n Co. has something
+              for every fashion-forward individual.
             </p>
           </div>
         </div>
       </div>
 
-      <div>images
+      <div>
         <div className={style.mobile_hero}>
           <div className={style.mobile_hero_inner}>
             <div
@@ -127,19 +138,20 @@ const Index = () => {
               data-scroll
               data-scroll-speed="0.1"
             >
-              KINDNESS
+              Our Promise:
             </div>
           </div>
         </div>
-
         <div className={style.mobile_service_content}>
           <div className={style.mobile_service_content_inner}>
             <h3 data-scroll data-scroll-speed></h3>
             <p>
-              We understand that property management is not just about bricks
-              and mortar, it's about people. Our friendly and compassionate
-              approach ensures that everyone involved in the process feels
-              valued and appreciated.
+              We are dedicated to providing our customers with an exceptional
+              shopping experience. From the moment you explore our collections
+              to the time you wear our designs, we ensure that you feel valued,
+              satisfied, and proud of your choice. Our team is always here to
+              assist you, ensuring that your journey with Itouché n Co. is
+              nothing short of extraordinary.
             </p>
           </div>
         </div>

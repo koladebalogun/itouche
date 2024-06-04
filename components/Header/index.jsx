@@ -10,7 +10,7 @@ const Index = ({ src, text }) => {
     <div className={styles.header}>
       <div className={styles.container}>
         <div>
-          <div className={styles.logo}>
+          {/* <div className={styles.logo}>
             {src && (
               <Link href="/">
                 <Image
@@ -22,7 +22,7 @@ const Index = ({ src, text }) => {
               </Link>
             )}
             <Link href="/">{text}</Link>
-          </div>
+          </div> */}
 
           <div className={styles.nav_toggle}>
             <Navigation />
