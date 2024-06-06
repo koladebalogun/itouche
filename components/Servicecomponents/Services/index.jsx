@@ -6,30 +6,30 @@ import styles from "./style.module.css";
 
 const List = [
   {
-    title: "Guaranteed Rental Income",
+    title: "Personal Styling Consultations",
     content:
-      "With our property management services, you can say goodbye to the uncertainty of vacant properties. We offer landlords a fixed, guaranteed income stream, providing you with peace of mind.",
+      "Our team of expert stylists is here to help you find the perfect pieces that complement your unique style and personality. Whether you need assistance for a special occasion or want to revamp your wardrobe, our personalized styling consultations will ensure you look your best.",
   },
   {
-    title: "Full Property Management",
+    title: "Custom Designs",
     content:
-      "We handle every aspect of property management, from tenant sourcing and vetting to maintenance, bills and regular inspections. You won't need to worry about a thing.",
+      "For those who desire a truly unique and personalized touch, we offer custom design services. Work closely with our designers to create bespoke pieces that reflect your individuality and celebrate African heritage in a contemporary way.",
   },
   {
-    title: "Tailored Solutions",
+    title: "Fashion Events and Workshops",
     content:
-      "We understand that every property is unique. Our customised solutions are designed to meet your specific needs and goals.",
+      "Join us for exclusive fashion events and workshops where you can learn about the latest trends, styling tips, and the stories behind our designs. These events provide a unique opportunity to immerse yourself in the world of African contemporary fashion.",
   },
-  {
-    title: "Increased Profitability",
-    content:
-      "By partnering with us, you can enjoy guaranteed rent without the stress of day-to-day property management.",
-  },
-  {
-    title: " 24/7 Support",
-    content:
-      " We provide round-the-clock support for both you and tenants, ensuring that any issues are promptly resolved.",
-  },
+  // {
+  //   title: "Increased Profitability",
+  //   content:
+  //     "By partnering with us, you can enjoy guaranteed rent without the stress of day-to-day property management.",
+  // },
+  // {
+  //   title: " 24/7 Support",
+  //   content:
+  //     " We provide round-the-clock support for both you and tenants, ensuring that any issues are promptly resolved.",
+  // },
 ];
 
 export default function index() {
@@ -48,12 +48,10 @@ export default function index() {
           ))}
         </>
         <h4 className={styles.subtext}>
-          At Soga Property Solutions, we are proud to offer our property
-          management services with complete transparency and integrity. We want
-          to assure all landlords that there's absolutely no catch when you
-          partner with us. Our commitment to you is straightforward: honest,
-          reliable, and hassle-free property management, without hidden fees or
-          surprises.
+          Experience the elegance and cultural richness of Itouché n Co. through
+          our comprehensive range of services. We are dedicated to making your
+          fashion journey as seamless and enjoyable as possible, ensuring you
+          always feel stylish, confident, and connected to your heritage.
         </h4>
       </div>
     </>
